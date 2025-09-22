@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hunyuanvideo-foley"
+description = "ComfyUI custom node for HunyuanVideo-Foley text-video-to-audio synthesis"
+version = "1.0.3"
+license = { file = "LICENSE.txt" }
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/if-ai/ComfyUI_HunyuanVideoFoley"
+
+[tool.comfy]
+PublisherId = "impactframes"
+DisplayName = "HunyuanVideo-Foley"
+Icon = ""
+
+
+
+
